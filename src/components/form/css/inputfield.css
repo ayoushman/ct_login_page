@@ -1,0 +1,29 @@
+.input_fields {
+  margin: 1rem;
+}
+
+.label-name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  line-height: 24px;
+  color: #726e6e;
+  margin-bottom: 1rem;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #726e6e;
+  margin: 0.5rem;
+  padding: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+/*# sourceMappingURL=inputfield.css.map */

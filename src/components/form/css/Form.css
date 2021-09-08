@@ -1,0 +1,115 @@
+.form {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.form .mobile-view {
+  display: none;
+}
+
+.form .form-components {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+.form .forgot-pass {
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  text-align: right;
+  color: #959595;
+}
+
+.form .forgot-pass .c-para {
+  color: #06b98e;
+}
+
+.form .forgot-pass .f-para:hover {
+  cursor: pointer;
+}
+
+.form .forgot-pass .c-para:hover {
+  cursor: pointer;
+}
+
+.form .btn {
+  background-color: #06b98e;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: 0.8rem;
+  width: 7rem;
+  text-align: center;
+  padding: 1rem;
+  min-height: 1rem;
+  outline: none;
+  border: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #ffffff;
+}
+
+.form .btn:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+@media screen and (max-width: 720px) {
+  .form .mobile-view {
+    display: inline-block;
+  }
+  .form .mobile-view .head {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #307353;
+    margin-top: -1rem;
+    border-bottom: 2px solid white;
+    width: 50%;
+  }
+  .form .mobile-view .para {
+    margin-top: -1rem;
+    color: #06b98e;
+  }
+}
+/*# sourceMappingURL=Form.css.map */
